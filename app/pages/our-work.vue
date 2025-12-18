@@ -37,11 +37,12 @@
             expertise solves complex challenges for global enterprises.
           </p>
 
-          <button
+          <NuxtLink
+            to="/contact"
             class="border-2 border-[#1E1B4E] text-[#1E1B4E] px-8 py-3 text-lg rounded-md font-semibold hover:bg-[#1E1B4E] hover:text-white transition-colors duration-300"
           >
             CONTACT US
-          </button>
+          </NuxtLink>
         </div>
       </div>
     </div>
@@ -71,11 +72,12 @@
           solves complex challenges for global enterprises.
         </p>
 
-        <button
+        <NuxtLink
+          to="/contact"
           class="border-2 border-[#1E1B4E] text-[#1E1B4E] px-6 py-3 text-base rounded-md font-semibold hover:bg-[#1E1B4E hover:text-white transition-colors duration-300"
         >
           CONTACT US
-        </button>
+        </NuxtLink>
       </div>
 
       <!-- Image Below -->
