@@ -37,11 +37,12 @@
             strategic value through global networks.
           </p>
 
-          <button
+          <NuxtLink
+            to="/contact"
             class="border-2 border-[#1E1B4E] text-[#1E1B4E] px-8 py-3 text-lg rounded-md font-semibold hover:bg-[#1E1B4E] hover:text-white transition-colors duration-300"
           >
             CONTACT US
-          </button>
+          </NuxtLink>
         </div>
       </div>
     </div>
@@ -71,11 +72,12 @@
           strategic value through global networks.
         </p>
 
-        <button
+        <NuxtLink
+          to="/contact"
           class="border-2 border-[#1E1B4E] text-[#1E1B4E] px-6 py-3 text-base rounded-md font-semibold hover:bg-[#1E1B4E hover:text-white transition-colors duration-300"
         >
           CONTACT US
-        </button>
+        </NuxtLink>
       </div>
 
       <!-- Image Below -->
@@ -102,7 +104,9 @@
       class="relative max-w-4xl text-white mx-auto py-16 space-y-6 text-2xl md:text-[28px] text-center lg:px-0 px-6"
     >
       <div>
-        <h3 class="border border-white py-2 px-2 mb-4 text-2xl font-light">
+        <h3
+          class="border border-white py-2 px-2 mb-4 text-2xl font-light w-fit mx-auto"
+        >
           TRANSFORMING BUSINESS, EMPOWERING HUMANITY
         </h3>
         <p

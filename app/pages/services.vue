@@ -37,11 +37,12 @@
             optimise operations and ensure regulatory compliance.
           </p>
 
-          <button
+          <NuxtLink
+            to="/contact"
             class="border-2 border-[#1E1B4E] text-[#1E1B4E] px-8 py-3 rounded-md text-lg font-semibold hover:bg-[#1E1B4E] hover:text-white transition-colors duration-300"
           >
             SCHEDULE A STRATEGY SESSION
-          </button>
+          </NuxtLink>
         </div>
       </div>
     </div>
@@ -71,11 +72,12 @@
           optimise operations and ensure regulatory compliance.
         </p>
 
-        <button
+        <NuxtLink
+          to="/contact"
           class="border-2 border-[#1E1B4E] text-[#1E1B4E] px-6 py-3 text-base rounded-md font-semibold hover:bg-[#1E1B4E hover:text-white transition-colors duration-300"
         >
           SCHEDULE A STRATEGY SESSION
-        </button>
+        </NuxtLink>
       </div>
 
       <!-- Image Below -->
@@ -132,7 +134,7 @@
         </h3>
       </div>
 
-      <div class="max-w-7xl mx-auto">
+      <div class="max-w-7xl mx-auto md:px-5">
         <div class="grid md:grid-cols-2 gap-x-16 gap-y-12">
           <!-- Service 1 -->
           <div class="flex items-center gap-6">

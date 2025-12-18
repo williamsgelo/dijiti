@@ -32,11 +32,12 @@
             financial services, and enterprise technology.
           </p>
 
-          <button
+          <NuxtLink
+            to="/contact"
             class="border-2 border-[#1E1B4E] text-[#1E1B4E] px-8 py-3 text-lg rounded-md font-semibold hover:bg-[#1E1B4E] hover:text-white transition-colors duration-300"
           >
             CONTACT US
-          </button>
+          </NuxtLink>
         </div>
       </div>
     </div>
@@ -52,7 +53,7 @@
           <span
             class="block bg-[#1E1B4E] text-white px-4 py-2 mt-2 inline-block uppercase"
           >
-            HAT DRIVES PROGRESS.
+            THAT DRIVES PROGRESS
           </span>
         </h1>
 
@@ -61,11 +62,12 @@
           services, and enterprise technology.
         </p>
 
-        <button
+        <NuxtLink
+          to="/contact"
           class="border-2 border-[#1E1B4E] text-[#1E1B4E] px-6 py-3 text-base font-semibold rounded-md hover:bg-[#1E1B4E hover:text-white transition-colors duration-300"
         >
           CONTACT US
-        </button>
+        </NuxtLink>
       </div>
 
       <!-- Image Below -->
@@ -140,7 +142,7 @@
 
             <!-- Read Article Button -->
             <button
-              class="text-gray-500 border border-gray-500 font-semibold py-2 px-6 transition-colors duration-300"
+              class="text-gray-500 border border-gray-500 font-semibold rounded-md py-2 px-6 transition-colors duration-300"
             >
               READ ARTICLE >
             </button>

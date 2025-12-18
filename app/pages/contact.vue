@@ -67,7 +67,7 @@
       </div>
 
       <!-- Image Below -->
-      <div class="w-full">
+      <div class="w-full hidden">
         <NuxtImg
           src="/images/Mobile-Contact.png"
           alt="Business professionals collaborating"
