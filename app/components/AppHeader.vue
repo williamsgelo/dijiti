@@ -115,7 +115,7 @@
           Services
         </NuxtLink>
         <NuxtLink
-          to="/"
+          to="/our-work"
           class="block px-3 py-2 text-base font-medium text-[#1E1B4E] rounded-md transition-colors uppercase"
         >
           Our Work
