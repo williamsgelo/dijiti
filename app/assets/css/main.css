@@ -16,4 +16,12 @@
       z-index: 1000;
     }
   }
+
+  @layer utilities {
+    @media (max-height: 650px) {
+      .short-height-start {
+        @apply items-start pt-5;
+      }
+    }
+  }
 }
