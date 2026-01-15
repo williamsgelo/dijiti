@@ -1,7 +1,7 @@
 <template>
   <section class="relative w-full">
     <!-- Desktop: Image as background with text overlay -->
-    <div class="hidden md:block relative w-full min-h-[600px]">
+    <div class="hidden md:block relative w-full h-screen">
       <!-- Background Image -->
       <div class="absolute inset-0">
         <NuxtImg
@@ -14,7 +14,9 @@
       </div>
 
       <!-- Content Overlay -->
-      <div class="relative container mx-auto px-6 lg:px-20 py-24 lg:py-32">
+      <div
+        class="relative container mx-auto px-6 lg:px-20 h-screen flex items-center"
+      >
         <div class="max-w-3xl">
           <h1 class="text-5xl font-bold text-gray-800 mb-6 leading-tight">
             PROSPERITY IS BUILT ON
