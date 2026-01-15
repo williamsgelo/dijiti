@@ -1,7 +1,7 @@
 <template>
   <section class="relative w-full">
     <!-- Desktop: Image as background with text overlay -->
-    <div class="hidden md:block relative w-full min-h-[600px]">
+    <div class="hidden md:block relative w-full h-screen">
       <!-- Background Image -->
       <div class="absolute inset-0">
         <NuxtImg
