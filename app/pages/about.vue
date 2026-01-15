@@ -15,7 +15,7 @@
 
       <!-- Content Overlay -->
       <div
-        class="relative container mx-auto px-6 lg:px-20 h-full flex items-center [@media(max-height:650px)]:items-start [@media(max-height:650px)]:pt-10"
+        class="relative container mx-auto px-6 lg:px-20 h-full flex items-center [@media(max-height:650px)]:items-start"
       >
         <div class="max-w-3xl">
           <h1
