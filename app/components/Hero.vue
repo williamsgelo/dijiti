@@ -15,7 +15,7 @@
 
       <!-- Content Overlay -->
       <div
-        class="relative container mx-auto px-6 lg:px-20 h-full flex items-start md:items-center"
+        class="relative container mx-auto px-6 lg:px-20 h-full flex items-start pt-20"
       >
         <div class="max-w-3xl">
           <h1 class="text-5xl font-bold text-gray-800 mb-6 leading-tight">
