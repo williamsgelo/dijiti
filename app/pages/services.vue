@@ -14,7 +14,9 @@
       </div>
 
       <!-- Content Overlay -->
-      <div class="relative container mx-auto px-6 lg:px-20 py-24 lg:py-32">
+      <div
+        class="relative container mx-auto px-6 lg:px-20 h-full flex items-center short-height-start"
+      >
         <div class="max-w-3xl">
           <h1
             class="text-5xl font-bold text-gray-800 mb-6 leading-tight uppercase"
